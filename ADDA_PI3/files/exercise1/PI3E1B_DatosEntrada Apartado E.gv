@@ -1,0 +1,33 @@
+strict graph G {
+  1 [ label="Francisco" ];
+  2 [ label="Manuela" ];
+  3 [ color="orange" label="Laura" ];
+  4 [ color="orange" label="Ramon" ];
+  5 [ color="orange" label="Marcos" ];
+  6 [ label="Angela" ];
+  7 [ label="Irene" ];
+  8 [ label="Daniel" ];
+  9 [ color="orange" label="Pedro" ];
+  10 [ label="Encarna" ];
+  11 [ color="orange" label="Josefina" ];
+  12 [ color="orange" label="Javier" ];
+  13 [ label="Raquel" ];
+  14 [ label="Julia" ];
+  15 [ label="Alvaro" ];
+  1 -- 3 [ ];
+  2 -- 3 [ ];
+  3 -- 6 [ ];
+  5 -- 6 [ ];
+  1 -- 4 [ ];
+  2 -- 4 [ ];
+  7 -- 9 [ ];
+  8 -- 9 [ ];
+  9 -- 11 [ color="orange" ];
+  10 -- 11 [ ];
+  11 -- 13 [ ];
+  11 -- 14 [ ];
+  4 -- 13 [ ];
+  4 -- 14 [ ];
+  11 -- 15 [ ];
+  12 -- 15 [ ];
+}

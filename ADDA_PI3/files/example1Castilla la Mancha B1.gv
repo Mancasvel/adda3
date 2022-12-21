@@ -1,0 +1,7 @@
+strict graph G {
+  1 [ label="Cuenca" ];
+  2 [ label="CiudadReal" ];
+  3 [ label="Albacete" ];
+  4 [ label="Toledo" ];
+  2 -- 1 [ style="solid" label="CM-4127" ];
+}

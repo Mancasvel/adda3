@@ -1,0 +1,30 @@
+strict graph G {
+  1 [ label="Ciudad1" ];
+  2 [ label="Ciudad2" ];
+  3 [ label="Ciudad3" ];
+  4 [ label="Ciudad4" ];
+  5 [ label="Ciudad5" ];
+  6 [ color="magenta" label="Ciudad6" ];
+  7 [ color="magenta" label="Ciudad7" ];
+  8 [ color="magenta" label="Ciudad8" ];
+  9 [ color="magenta" label="Ciudad9" ];
+  10 [ color="magenta" label="Ciudad10" ];
+  11 [ color="magenta" label="Ciudad11" ];
+  1 -- 2 [ ];
+  2 -- 3 [ ];
+  3 -- 5 [ ];
+  2 -- 4 [ ];
+  4 -- 5 [ ];
+  1 -- 3 [ ];
+  5 -- 1 [ ];
+  6 -- 8 [ color="magenta" ];
+  9 -- 6 [ ];
+  8 -- 10 [ color="magenta" ];
+  10 -- 9 [ color="magenta" ];
+  6 -- 10 [ ];
+  6 -- 7 [ ];
+  7 -- 9 [ color="magenta" ];
+  7 -- 11 [ color="magenta" ];
+  11 -- 6 [ color="magenta" ];
+  7 -- 8 [ ];
+}
